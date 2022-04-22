@@ -1,0 +1,23 @@
+#cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#heading{
+    text-align: center;
+}
+#card{
+    width:300px;
+    border: 2px solid black;
+    margin: 1rem;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+#name{
+    font-weight: bolder;
+    font-size: 2rem;
+    margin: 5px;
+}
