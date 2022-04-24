@@ -1,5 +1,6 @@
 import React,{Component} from 'react';
 import Card from './Card';
+import './index.css'
 
 class App extends Component{
   constructor(){
@@ -19,7 +20,7 @@ class App extends Component{
     return(
       (flag === '1') ? user.map((elem) =>
         <Card key={elem.id} avatar={elem.avatar} first_name={elem.first_name} last_name={elem.last_name} email={elem.email}/>
-      ) : null
+      ) :  <div className='lds-hourglass'></div>
     );
   }
 }
