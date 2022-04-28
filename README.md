@@ -1,6 +1,6 @@
 #Task2
 
-Hello Everyone. It is my 2nd task of Lets Upgrade Web Development Internship.
+Hello Everyone. It is my 2nd task of LetsGrowMore Web Development Internship.
 
 The task is "
 
